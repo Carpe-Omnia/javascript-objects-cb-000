@@ -9,10 +9,10 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 }
 var playlist = {}
 function updatePlaylist(playlist, name, title) {
-  playlist[name] = title
+  playlist[name] = title ;
   return playlist
 }
 function removeFromPlaylist(playlist, name) {
-  delete playlist[name]
+  delete playlist[name] ;
   return playlist
 }
