@@ -7,7 +7,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 
   return Object.assign({}, obj, { [key]: value })
 }
-var playlist = {}
+var playlist = {nas: "song"}
 function updatePlaylist(playlist, name, title) {
   playlist[name] = title ;
   return playlist
